@@ -114,7 +114,7 @@ export default function JournalsRoute({ actionData }: Route.ComponentProps) {
             <select
               {...getSelectProps(fields.emotion)}
               name="emotion"
-              className="col-span-2 flex w-full rounded-md border border-input bg-muted p-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+              className="col-span-2 flex w-full rounded-xl border border-input bg-muted p-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
             >
               {emotions.map((emotion) => (
                 <option key={emotion} value={emotion}>
@@ -131,7 +131,7 @@ export default function JournalsRoute({ actionData }: Route.ComponentProps) {
             <select
               {...getSelectProps(fields.productivity)}
               name="productivity"
-              className="col-span-2 flex w-full rounded-md border border-input bg-muted p-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+              className="col-span-2 flex w-full rounded-xl border border-input bg-muted p-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
             >
               {productivity.map((productivity) => (
                 <option key={productivity} value={productivity}>
@@ -148,7 +148,7 @@ export default function JournalsRoute({ actionData }: Route.ComponentProps) {
             size="lg"
             text="Save Memory"
             aria-label="Save Memory"
-            className="rounded-md"
+            className="rounded-xl"
           />
         </div>
         {fields.content.errors && (
