@@ -27,14 +27,14 @@ export default function Layout() {
             <Tooltip>
               <TooltipTrigger asChild>
                 <Link
-                  to="/todos"
+                  to="/journals"
                   className={buttonVariants({ variant: "ghost", size: "icon" })}
                 >
                   <PlusIcon />
                 </Link>
               </TooltipTrigger>
               <TooltipContent>
-                <p>Add todo</p>
+                <p>Add journal</p>
               </TooltipContent>
             </Tooltip>
           </TooltipProvider>
