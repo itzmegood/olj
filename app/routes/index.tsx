@@ -14,8 +14,8 @@ export async function loader({ request }: Route.LoaderArgs) {
 
 export default function IndexRoute() {
   return (
-    <div className="h-dvh bg-foreground p-4 pt-20 sm:py-4">
-      <section className="flex h-full w-full flex-1 flex-col items-center justify-center gap-6 rounded-t-full bg-background p-4 pb-20 text-center sm:rounded-xl">
+    <div className="h-dvh bg-foreground p-4">
+      <section className="flex h-full w-full flex-1 flex-col items-center justify-center gap-6 rounded-t-full bg-background p-4 text-center sm:rounded-xl">
         <div className="text-7xl font-extrabold">One Line Journal</div>
         <p className="text-2xl">
           Capture your thoughts and ideas in one line at a time.

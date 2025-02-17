@@ -60,7 +60,7 @@
     "@cloudflare/workers-types": "^4.20250214.0",
     "@react-router/dev": "*",
     "@types/node": "^22.13.4",
-    "@types/react": "^19.0.8",
+    "@types/react": "^19.0.9",
     "@types/react-dom": "^19.0.3",
     "autoprefixer": "^10.4.20",
     "drizzle-kit": "~0.30.4",
