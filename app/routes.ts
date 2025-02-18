@@ -14,6 +14,7 @@ export default [
     route("home", "routes/home.tsx"),
     route("account", "routes/account.tsx"),
     route("journals", "routes/journals.tsx"),
+    route("journals/new", "routes/journals.new.tsx"),
   ]),
 
   // Auth

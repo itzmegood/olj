@@ -1,6 +1,7 @@
 import { relations } from "drizzle-orm";
 import {
   index,
+  integer,
   sqliteTable,
   text,
   unique,
@@ -20,6 +21,8 @@ export const usersTable = sqliteTable(
     email: text("email", { mode: "text" }).notNull(),
     avatarUrl: text("avatar_url", { mode: "text" }),
     bio: text("bio", { mode: "text" }),
+    journalStreak: integer("journal_streak").default(0),
+    journalProgress: integer("journal_progress").default(0),
     status: text("status", {
       mode: "text",
       enum: ["active", "deleted", "blocked"],

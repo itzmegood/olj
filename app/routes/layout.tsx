@@ -27,7 +27,7 @@ export default function Layout() {
             <Tooltip>
               <TooltipTrigger asChild>
                 <Link
-                  to="/journals"
+                  to="/journals/new"
                   className={buttonVariants({ variant: "ghost", size: "icon" })}
                 >
                   <PlusIcon />
